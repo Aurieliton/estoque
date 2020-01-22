@@ -7,10 +7,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Auri',
+      title: 'medroso',
       theme: ThemeData(
-  
-        primarySwatch: Colors.red,
+          primarySwatch: Colors.red,
       ),
       home: MyHomePage(title: 'Auri Demo Home Page'),
     );
@@ -56,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+      
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
